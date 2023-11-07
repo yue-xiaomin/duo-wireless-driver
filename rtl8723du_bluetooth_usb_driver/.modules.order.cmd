@@ -1,0 +1,1 @@
+cmd_/home/yxm/milk-v/CV180x/usb无线驱动/duo-wireless-driver/rtl8723du_bluetooth_usb_driver/modules.order := {   echo /home/yxm/milk-v/CV180x/usb无线驱动/duo-wireless-driver/rtl8723du_bluetooth_usb_driver/rtk_btusb.ko; :; } | awk '!x[$$0]++' - > /home/yxm/milk-v/CV180x/usb无线驱动/duo-wireless-driver/rtl8723du_bluetooth_usb_driver/modules.order

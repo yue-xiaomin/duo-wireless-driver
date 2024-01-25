@@ -1,0 +1,1 @@
+cmd_/home/yxm/milk-v/CV180x/usb无线驱动/aic8800_porting_package/USB/driver_fw/drivers/aic8800/Module.symvers := sed 's/ko$$/o/' /home/yxm/milk-v/CV180x/usb无线驱动/aic8800_porting_package/USB/driver_fw/drivers/aic8800/modules.order | scripts/mod/modpost     -o /home/yxm/milk-v/CV180x/usb无线驱动/aic8800_porting_package/USB/driver_fw/drivers/aic8800/Module.symvers -e -i Module.symvers   -T -

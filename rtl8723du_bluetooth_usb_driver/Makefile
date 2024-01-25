@@ -27,6 +27,6 @@ all:
 	$(MAKE) ARCH=$(ARCH) CROSS_COMPILE=$(CROSS_COMPILE) -C $(KSRC) M=$(shell pwd) modules
 
 clean:
-	rm -rf *.o *.mod.c *.mod.o *.mod *.ko *.symvers *.order *.a
+	rm -rf *.o *.mod.c *.mod.o *.mod *.ko *.symvers *.order *.a .Module.* .modules.*.cmd *.cmd *.*.cmd
 
 endif

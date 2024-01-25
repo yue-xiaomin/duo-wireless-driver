@@ -1,1 +1,0 @@
-cmd_/home/yxm/milk-v/CV180x/usb无线驱动/duo-wireless-driver/rtl8723du_bluetooth_usb_driver/Module.symvers := sed 's/ko$$/o/' /home/yxm/milk-v/CV180x/usb无线驱动/duo-wireless-driver/rtl8723du_bluetooth_usb_driver/modules.order | scripts/mod/modpost     -o /home/yxm/milk-v/CV180x/usb无线驱动/duo-wireless-driver/rtl8723du_bluetooth_usb_driver/Module.symvers -e -i Module.symvers   -T -
